@@ -1,0 +1,7 @@
+compras:
+  path: /compras
+  defaults:
+    _controller: Drupal\compras\Controller\ComprasController::mostrarCompra
+    _title: Compras
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,14 @@
+name: Webform SugarCRM Integration
+type: module
+description: "Module provides integration for webform submission with SugarCRM"
+package: Webform
+# core: 8.x
+dependencies:
+  - webform
+  - webform_ui
+
+# Information added by Drupal.org packaging script on 2018-06-05
+version: '8.x-2.0'
+core: '8.x'
+project: 'webform_sugarcrm'
+datestamp: 1528182191

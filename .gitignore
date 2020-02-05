@@ -43,4 +43,9 @@ core/phpcs.xml
 core/phpunit.xml
 .DS_Store
 *.DS_Store
-
+themes/custom/fucs/images/PDF
+themes/custom/fucs/images/planeacion/
+themes/custom/fucs/images/investigacion/colciencias/
+themes/custom/fucs/images/documentos-FUCS/
+themes/custom/fucs/mails
+themes/custom/fucs/mail

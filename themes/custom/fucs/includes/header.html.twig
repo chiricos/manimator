@@ -1,0 +1,114 @@
+<header>
+	<div class="menu-tablet">
+		<figure class="logo ">
+			<a href="/">
+				<img src="/themes/custom/fucs/images/logo.png" alt="Logo fucs">
+			</a>
+		</figure>
+		<div class=" menu-first " >
+			{{ page.top_menu }}
+			<div class="inscribete-mobil-top">
+				<img src="/themes/custom/fucs/images/inscribete.png" alt="inscribete">
+				<h4>CONTÁCTENOS</h4>
+			</div>
+		</div>
+		<div class="menu-mobil">
+			<img src="/themes/custom/fucs/images/menu-mobil.png" alt="menu" class="mobil-open">
+			<img src="/themes/custom/fucs/images/menu-mobil-open.png" alt="menu" class="mobil-close" style="display: none">
+			<div class="menu-desplegable">
+				<div class="mobil-header">
+					<div class="iniciar-mobil">
+						<a href="/user/login">
+							<img src="/themes/custom/fucs/images/iniciar.png" alt="login">
+							Iniciar sesión
+						</a>
+
+					</div>
+					<div class="google-mobil ">
+						<a href="http://mail.fucsalud.edu.co/" class="icon-mail"></a>
+					</div>
+
+					<div class="menu-tablet-desplegable" >
+						<div class="search-mobil search">
+							<input type="text" placeholder="Buscar" class="form-control" id="inputSearch1">
+							<button class="glyphicon glyphicon-search" id="inputButton1"></button>
+						</div>
+						<div class="menu-primero-mobil">
+							{{ page.top_menu }}
+						</div>
+						<div class="mobil-social">
+							{{ page.social }}
+						</div>
+						<div class="menu-segundo-mobil">
+							{{ page.primary_menu }}
+						</div>
+						<div class="menu-tercero-mobil">
+							{{ page.secundary_menu }}
+						</div>
+						<a href="/contactenos">
+							<div class="inscribete-mobil">
+								<p><img alt="inscribete" src="/themes/custom/fucs/images/inscribete.png"></p>
+								<h4>CONTÁCTENOS</h4>
+							</div>
+						</a>
+
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+		<div class="send col-md-4">
+			<a href="http://mail.fucsalud.edu.co/" class="icon-mail"></a>
+			<div class="google-trans">
+				{{ page.lenguaje }}
+			</div>
+
+		</div>
+	</div>
+	<div class="wrapper" >
+		<figure class="logo ">
+			{{ page.logo }}
+
+		</figure>
+		<div class="menu-top " >
+			<div class="top " >
+				<div class=" menu-first " >
+					{{ page.top_menu }}
+				</div>
+				<div class="search-login ">
+					<div class="search col-md-4">
+						<input type="text" placeholder="Buscar" class="form-control" id="inputSearch">
+						<button class="glyphicon glyphicon-search" id="inputButton"></button>
+					</div>
+					<div class=" login col-md-4">
+						<a href="/user/login" class="">Iniciar sesión <span ><img src="/themes/custom/fucs/images/iniciar.png" alt="login"></span></a>
+					</div>
+					<div class="send col-md-4">
+						<a href="http://mail.fucsalud.edu.co/" class="icon-mail"></a>
+						<div class="google-trans">
+							{{ page.lenguaje }}
+
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+			<div class="menu ">
+				{{ page.primary_menu }}
+			</div>
+			<div class="menu-second ">
+				{{ page.secundary_menu }}
+			</div>
+		</div>
+
+	</div>
+	</div>
+	<div class="social">
+		{{ page.social }}
+	</div>
+	{{ page.inscribete }}
+   
+
+</header>

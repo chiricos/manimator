@@ -1,0 +1,11 @@
+## YAML Template.
+---
+name: drawdeForm
+description: Módulo para formularios
+package: Drawde
+
+type: module
+core: 8.x
+
+dependencies:
+  - block

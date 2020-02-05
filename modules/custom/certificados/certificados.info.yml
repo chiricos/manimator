@@ -1,0 +1,6 @@
+name: Certificados
+description: Muestra los diferentes certificados emitidos.
+package: Manimator
+
+type: module
+core: 8.x

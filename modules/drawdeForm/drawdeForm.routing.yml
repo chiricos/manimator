@@ -1,0 +1,24 @@
+drawdeForm.content:
+  path: '/drawdeForm'
+  defaults:
+    _controller: '\Drupal\drawdeForm\Controller\drawdeFormController::content'
+    _title: 'Hello World'
+  requirements:
+    _permission: 'access content'
+
+drawdeForm.verPagina:
+  path: '/drawdeForm/ver-pagina'
+  defaults:
+    _controller: '\Drupal\drawdeForm\Controller\drawdeFormController::verPagina'
+    _title: 'Página de mi módulo'
+  requirements:
+    _permission: 'access content'
+
+drawdeForm.insertarGastoForm:
+  path: '/drawdeForm/insertar-gasto'
+  defaults:
+    _form: '\Drupal\drawdeForm\Form\InsertarGastoForm'
+    _title: 'Insertar gasto'
+  requirements:
+    _permission: 'access content'
+
